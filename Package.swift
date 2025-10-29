@@ -11,6 +11,7 @@ let package = Package(
         .library(
             name: "DesignSystem",
             targets: ["DesignSystem"]),
+        
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -22,6 +23,7 @@ let package = Package(
         .target(
             name: "DesignSystem",
             dependencies: [],
+            exclude: ["Example"],
             resources: [
                 .process("Resources"),
             ]),
