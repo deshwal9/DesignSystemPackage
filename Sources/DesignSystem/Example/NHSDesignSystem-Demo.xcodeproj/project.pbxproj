@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		BC15B99B2EB2897100548E97 /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = BC15B99A2EB2897100548E97 /* DesignSystem */; };
 		BC15B9AA2EB28BCB00548E97 /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = BC15B9A92EB28BCB00548E97 /* DesignSystem */; };
+		BC30EC902EB39E1B0021F276 /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = BC30EC8F2EB39E1B0021F276 /* DesignSystem */; };
+		BC30EC932EB39E4D0021F276 /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = BC30EC922EB39E4D0021F276 /* DesignSystem */; };
+		BC30ECA22EB3A0EB0021F276 /* NHSDesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = BC30ECA12EB3A0EB0021F276 /* NHSDesignSystem */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,8 +60,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC30EC902EB39E1B0021F276 /* DesignSystem in Frameworks */,
 				BC15B99B2EB2897100548E97 /* DesignSystem in Frameworks */,
 				BC15B9AA2EB28BCB00548E97 /* DesignSystem in Frameworks */,
+				BC30ECA22EB3A0EB0021F276 /* NHSDesignSystem in Frameworks */,
+				BC30EC932EB39E4D0021F276 /* DesignSystem in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +127,9 @@
 			packageProductDependencies = (
 				BC15B99A2EB2897100548E97 /* DesignSystem */,
 				BC15B9A92EB28BCB00548E97 /* DesignSystem */,
+				BC30EC8F2EB39E1B0021F276 /* DesignSystem */,
+				BC30EC922EB39E4D0021F276 /* DesignSystem */,
+				BC30ECA12EB3A0EB0021F276 /* NHSDesignSystem */,
 			);
 			productName = "NHSDesignSystem-Demo";
 			productReference = BC15B94F2EB2855F00548E97 /* NHSDesignSystem-Demo.app */;
@@ -205,7 +214,7 @@
 			mainGroup = BC15B9462EB2855F00548E97;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				BC15B9A82EB28BCB00548E97 /* XCLocalSwiftPackageReference "../../../../swiftPackage" */,
+				BC30ECA02EB3A0EB0021F276 /* XCLocalSwiftPackageReference "../../swiftPackage" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = BC15B9502EB2855F00548E97 /* Products */;
@@ -629,9 +638,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		BC15B9A82EB28BCB00548E97 /* XCLocalSwiftPackageReference "../../../../swiftPackage" */ = {
+		BC30ECA02EB3A0EB0021F276 /* XCLocalSwiftPackageReference "../../swiftPackage" */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = ../../../../swiftPackage;
+			relativePath = ../../swiftPackage;
 		};
 /* End XCLocalSwiftPackageReference section */
 
@@ -643,6 +652,18 @@
 		BC15B9A92EB28BCB00548E97 /* DesignSystem */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = DesignSystem;
+		};
+		BC30EC8F2EB39E1B0021F276 /* DesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DesignSystem;
+		};
+		BC30EC922EB39E4D0021F276 /* DesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DesignSystem;
+		};
+		BC30ECA12EB3A0EB0021F276 /* NHSDesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NHSDesignSystem;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
